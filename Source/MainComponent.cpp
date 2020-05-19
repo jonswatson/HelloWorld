@@ -26,7 +26,7 @@ void MainComponent::paint (Graphics& g)
 
     g.setFont (Font (32.0f));
     g.setColour (Colours::blue);
-    g.drawText ("Hello World!", getLocalBounds(), Justification::centred, true);
+    g.drawText ("Hello World!", getLocalBounds(), Justification::centredLeft, true);
 }
 
 void MainComponent::resized()
@@ -35,3 +35,4 @@ void MainComponent::resized()
     // If you add any child components, this is where you should
     // update their positions.
 }
+ 
